@@ -11,11 +11,11 @@ const Register = () => {
    const Form = t.form.Form;
    const User = t.struct({
    name: t.String,
-   // age: t.Number,
-   // league: t.String,
-   // city : t.String,
-   // club :t.String,
-   // phone : t.Number
+   age: t.Number,
+   league: t.String,
+   city : t.String,
+   club :t.String,
+   phone : t.Number
    
 });
      const addUser =() =>{
