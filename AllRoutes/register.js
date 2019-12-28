@@ -5,9 +5,9 @@ import t from 'tcomb-form-native';
 
 
 const Register = () => {
-   const goToAbout = () => { 
-      Actions.about()
-   }
+   // const goToAbout = () => { 
+   //    Actions.about()
+   // }
    const Form = t.form.Form;
    const User = t.struct({
    name: t.String,
